@@ -76,11 +76,11 @@ pip install -r requirements.txt
 
 ---
 
-**👤 Author**
+## **👤 Author**
 
 **Rehan Abdul Gani Shaikh**
 **Aspiring Data Scientist | B.Tech Student**
 
-🔗 Connect with me: [](www.linkedin.com/in/rehan-shaikh-68153a246)
+🔗 Connect with me:  [LinkedIn](https://www.linkedin.com/in/rehan-shaikh-68153a246)  
 
 📬 Email: rehansk.3107@gmail.com
