@@ -13,16 +13,16 @@
 ## 📌 Overview
 This project builds an **image classification system** using the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).  
 We compare two approaches:
-- A **Custom Convolutional Neural Network (CNN)** with Dropout, BatchNorm, and Data Augmentation.  
-- A **Pretrained Model (ResNet50)** fine-tuned on CIFAR-10.  
+- A **Basic Convolutional Neural Network (CNN)**.  
+- An **Enhanced CNN** with Dropout, BatchNorm, and Data Augmentation.  
 
 ---
 
 ## 🗂 Dataset
 **Source:** [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)  
 **Structure:**
-- 60,000 color images (32x32 pixels, RGB)
-- 50,000 training images + 10,000 testing images
+- 60,000 color images (32x32 pixels, RGB)  
+- 50,000 training images + 10,000 testing images  
 - **10 categories**: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck  
 
 ---
@@ -42,15 +42,14 @@ We compare two approaches:
    - Normalize pixel values
    - Apply Data Augmentation  
 
-2. **Model 1: Custom CNN**
-   - Convolution + MaxPooling layers
-   - Dropout + Batch Normalization
+2. **Model 1: Basic CNN**
+   - Simple Conv + MaxPooling layers
    - Dense layers for classification  
 
-3. **Model 2: Transfer Learning**
-   - Load pretrained **ResNet50**
-   - Replace final layers for CIFAR-10 classes
-   - Fine-tune selected layers  
+3. **Model 2: Enhanced CNN**
+   - Deeper architecture
+   - Dropout + Batch Normalization
+   - Data Augmentation  
 
 4. **Evaluation**
    - Accuracy, Precision, Recall, F1-score
@@ -73,14 +72,15 @@ cd cifar-10-image-classification
 pip install -r requirements.txt
 
 # Run Jupyter Notebook
-jupyter main.ipynb
 ```
 
 ---
 
-## 👤 **Author**  
-**Rehan Abdul Gani Shaikh**  
-_Aspiring Data Scientist | B.Tech Student_  
+**👤 Author**
 
-🔗 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/rehan-shaikh-68153a246)  
-📬 **Email:** rehansk.3107@gmail.com  
+**Rehan Abdul Gani Shaikh**
+**Aspiring Data Scientist | B.Tech Student**
+
+🔗 Connect with me: [](www.linkedin.com/in/rehan-shaikh-68153a246)
+
+📬 Email: rehansk.3107@gmail.com
