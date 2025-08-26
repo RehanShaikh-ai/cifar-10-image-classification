@@ -5,16 +5,18 @@
 ![Keras](https://img.shields.io/badge/Keras-DL-red?logo=keras)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-yellow?logo=plotly)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-green?logo=scikitlearn)
-![Status](https://img.shields.io/badge/Status-Active-success)
+![Status](https://img.shields.io/badge/Status-Completed-blue)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
-
+![](images/cifar-10.png)
 ## 📌 Overview
 This project builds an **image classification system** using the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).  
 We compare two approaches:
 - A **Basic Convolutional Neural Network (CNN)**.  
 - An **Enhanced CNN** with Dropout, BatchNorm, and Data Augmentation.  
+
+![](images/test_pred.png)
 
 ---
 
